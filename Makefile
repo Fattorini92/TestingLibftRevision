@@ -9,7 +9,7 @@ VPATH = Testerlibft
 SRC = ftputchar.c ftputnbr.c ftatoi.c ftputstr.c\
 ftislower.c ftisupper.c ftisalpha.c ftisdigit.c\
 ftisalnum.c ftisprint.c ftstrlen.c ftmemset.c\
-ftbzero.c ftmemcpy.c ftmemmove.c
+ftbzero.c ftmemcpy.c ftmemmove.c ftstrlcpy.c
 
 AR = ar rcs
 

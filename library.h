@@ -27,5 +27,6 @@ void *ftmemset(void *s, int c, size_t n);
 void ftbzero(void *s, size_t n);
 void *ftmemcpy(void *dest, const void *src, size_t n);
 void *ftmemmove(void *dest, const void *src, size_t n);
+size_t ftstrlcpy (char *dest, const char *src, size_t size);
 
 #endif
